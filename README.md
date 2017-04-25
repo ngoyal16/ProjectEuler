@@ -1,2 +1,3 @@
-# ProjectEuler-
-ProjectEuler Problem solutions in different different languages 
+# ProjectEuler+
+
+This package contains my solution code for Project Euler problems in multiple languages.
