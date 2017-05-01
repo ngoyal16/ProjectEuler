@@ -1,4 +1,3 @@
-
 data = {1:1}
 
 def calculateCollatz(num):
