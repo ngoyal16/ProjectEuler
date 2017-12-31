@@ -35,19 +35,12 @@ public class Solution {
     }
     
     public static BigInteger sum_multiples(BigInteger x, BigInteger number){
-
-        
-        BigInteger sum = number.divide(x);
+		BigInteger sum = number.divide(x);
         BigInteger t = sum.add(BigInteger.valueOf(1));
         
-       // System.out.println(sum);System.out.println(t);
-           
         sum =  x.multiply(sum.multiply(t));
-       // System.out.println(sum);
         sum =  sum.divide(BigInteger.valueOf(2));
         
-       // System.out.println(sum);
         return sum;
-        
 	}
 }
